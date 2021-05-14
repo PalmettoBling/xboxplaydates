@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <title>XBox Playdates</title>
 </head>
 
@@ -18,16 +19,16 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="images/logo.jpg" height="100" width="100" /></a>
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#salonNavbar">
+            <a class="navbar-brand" href="#"><img src="images/logo.jpg" height="75" width="75" /></a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav ml-auto">
+                <ul class="topBottomBordersOut navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="streams.html">Streams</a></li>
                     <li class="nav-item"><a class="nav-link" href="social.html">Social</a></li>
-                    <li class="nav-item"><a class="nav-link" href="info.html">Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="latestinfo.html">Latest Info</a></li>
                     <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                 </ul>
             </div>
@@ -40,28 +41,155 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-4">
-                    <h1>XBox Playdates</h1>
-                    <h2>play</h2>
+                    
                 </div>
             </div>
         </div>
     </header>
 
-    <footer>
-        <div class="container">
-            <div class="row justify-content-center">             
-                <div class="col-4">
-                    <a href="">linked in</a>
-                    <a href="">github</a>
+ 
+
+    <!-- 3 hover tables -->
+    <div class="container">
+        <div class="row text-center row animate__animated animate__fadeInRight">
+            <!-- connect with us -->
+            <div class="col-md-4" style="margin-top: 50px; margin-bottom: 50px;">
+                <div class="pricing-table">
+                    <div class="panel panel-primary" style="border: none;">
+                        <div class="control-header panel-heading panel-heading-landing">
+                            <h1 class="panel-title panel-title-landing">
+                                Connect With Us
+                            </h1>
+                        </div>
+                        <div class="panel-body-landing">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <br><br><br><br><img src="images/image1.jpg" alt="connect with us"><br><br><br><br>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="panel-footer panel-footer-landing">
+                            <a href="#" class="btn btn-price btn-dark btn-lg">Social Media</a>
+                        </div>
+                    </div>
                 </div>
             </div>
+            <!-- end connect with us -->
+
+            <!-- watch us -->
+            <div class="col-md-4" style="margin-top: 50px; margin-bottom: 50px;">
+                <div class="pricing-table">
+                    <div class="panel panel-primary" style="border: none;">
+                        <div class="control-header panel-heading panel-heading-landing">
+                            <h1 class="panel-title panel-title-landing">
+                                Watch Us
+                            </h1>
+                        </div>
+                        <div class="panel-body-landing">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <br><br><br><br><img src="images/image2.jpg" alt="streams"><br><br><br><br>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="panel-footer panel-footer-landing">
+                            <a href="#" class="btn btn-price btn-dark btn-lg">Streams</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end watch us-->
+
+            <!-- whats coming up -->
+            <div class="col-md-4" style="margin-top: 50px; margin-bottom: 50px;">
+                <div class="pricing-table">
+                    <div class="panel panel-primary" style="border: none;">
+                        <div class="control-header panel-heading panel-heading-landing">
+                            <h1 class="panel-title panel-title-landing">
+                                What's Coming Up?
+                            </h1>
+                        </div>
+                        <div class="panel-body-landing">
+                            <table class="table">
+                                <tr>
+                                    <td>
+                                        <br><br><br><br><img src="images/image3.jpg" alt="latest info"><br><br><br><br>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="panel-footer panel-footer-landing">
+                            <a href="#" class="btn btn-price btn-dark btn-lg">Latest Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end whats coming up -->
         </div>
-    </footer>
+    </div>
+    <!-- end 3 hover tables -->
+
+
+
+
+
+
+    <!-- footer -->
+    <section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-sm-6 col-md-3">
+					<h5>Links</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="#"><i class="fa fa-angle-double-right"></i>Home</a></li>
+						<li><a href="streams.html"><i class="fa fa-angle-double-right"></i>Streams</a></li>
+						<li><a href="social.html"><i class="fa fa-angle-double-right"></i>Social</a></li>
+                        <li><a href="latestinfo.html"><i class="fa fa-angle-double-right"></i>Latest Info</a></li>
+						<li><a href="contact.html"><i class="fa fa-angle-double-right"></i>Contact</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h5>Contact</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="tel:+15555555555" title="call me"><i class="fa fa-phone"></i>555-555-5555</a></li>
+						<li><a href="mailto:email@email.com" title="email me"><i class="fa fa-envelope"></i>email@email.com</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-6 pl-5">
+                    <h5>Newsletter</h5>
+                    <div class="newsletter js-rollover" data-radius="50">
+                        <form class="newsletter-form">
+                            <input type="email" class="form-control" id="emailAddress" placeholder="Enter your email" autocomplete="off" required>
+                            <label class="form-control-placeholder" for="emailAddress"></label>
+                            <button type="submit" class="button">Subscribe</button>              
+                        </form>
+                    </div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="#"><i class="fa fa-twitch"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-youtube"></i></a></li>
+						<li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>
+					</ul>
+				</div>
+				<hr>
+			</div>
+		</div>
+    </section>
+    <!-- end footer-->
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins. -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
 </body>
 </html>
