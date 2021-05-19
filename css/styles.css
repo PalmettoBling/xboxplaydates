@@ -188,6 +188,32 @@ end image zoom */
 
 
 
+/* social cards */
+#social-cards .bluebg:hover {
+  background-color: #0e83aa ;    
+  color: #ffffff;
+  border: none !important;
+  transition: 1s 0.5s ease;
+}
+#social-cards .bluebg:hover .btn {
+  border-radius: 0 !important;
+  background-color: #ffffff !important;
+  color: #0e83aa;
+}
+#social-cards .purplebg:hover {
+  background-color: #482e76;    
+  color: #ffffff;
+  border: none !important;   
+  transition: 1s 0.5s linear;
+}
+#social-cards .purplebg:hover .btn {
+  border-radius: 0 !important;
+  background-color: #ffffff !important;
+  color: #482e76;   
+}
+/* end social cards */
+
+
 
 
 
