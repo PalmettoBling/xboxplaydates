@@ -5,6 +5,8 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
+    <link rel="icon" type="image/png" href="images/icon.png" />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
@@ -42,7 +44,8 @@
         <div class="row d-flex justify-content-center">
             <div class="col-md-8 contact-form-wrapper p-5 m-5">
                 <h2 class="contactHeader text-center pb-5"><b>Contact Us</b></h2>
-                <form>
+                <form action="http://formspree.io/you@email.com" method="POST" 
+                enctype="text/plain" name="EmailForm">
                 <div class="row">
                     <div class="col-md-6">
                         <div class="form-group">
@@ -50,18 +53,16 @@
                             <input type="text" class="form-control" id="name" placeholder="Your name" required="required" />
                         </div>
                         <div class="form-group">
-                            <label for="email">Email Address</label>
+                            <label for="email">Email</label>
                             <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
                                 <input type="email" class="form-control" id="email" placeholder="Your email" required="required" />
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="subject">Subject</label>
-                            <select id="subject" name="subject" class="form-control" required="required">
-                                <option value="na" selected="">Choose One:</option>
-                                <option value="xboxplaydates">Xbox Playdates</option>
-                            </select>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" />
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -71,7 +72,7 @@
                         </div>
                     </div>
                     <div class="col-md-12 pt-2">
-                        <button type="submit" class="btn btnContactColor pull-right" id="btnContactUs">Send Message</button>
+                        <button type="submit" class="btn btnContactColor pull-right" id="btnContactUs" value="Submit">Send Message</button>
                     </div>
                 </div>
                 </form>
@@ -81,19 +82,19 @@
     <!-- end contact form-->
 
 
-    <!-- footer -->
-    <section id="footer">
+     <!-- footer -->
+     <section id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-					<ul class="list-unstyled list-inline social text-center">
+				<div class="col mt-2 mt-sm-5 text-center">
+					<ul class="list-unstyled list-inline social">
 						<li class="list-inline-item"><a href="https://xboxplaydates.us/twitch"><i class="fa fa-twitch"></i></a></li>
 						<li class="list-inline-item"><a href="https://twitter.com/XboxPlaydatesUS"><i class="fa fa-twitter"></i></a></li>
 						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCsmPOuYeUCmNDQwaHFbyb-A"><i class="fa fa-youtube"></i></a></li>
 						<li class="list-inline-item"><a href="https://www.facebook.com/XboxPlaydatesUS/"><i class="fa fa-facebook"></i></a></li>
 					</ul>
+                    <small>XboxPlaydatesUS &#169; 2021</small>
 				</div>
-				<hr>
 			</div>
 		</div>
     </section>
