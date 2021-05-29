@@ -29,29 +29,23 @@ h1, h2, h3, h4, h5 {
 }
 
 
-
-
 /* footer */
 section {
   padding: 20px 0;
   color: #ffffff;
 }
-
 #footer {
   background: #02214f !important;
 }
-
 #footer a {
   color: #ffffff;
   text-decoration: none !important;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
 }
-
 #footer ul.social li {
   padding: 1px 0;
 }
-
 #footer ul.social li a i {
   margin-right: 5px;
   font-size: 25px;
@@ -59,22 +53,18 @@ section {
   -moz-transition: .5s all ease;
   transition: .5s all ease;
 }
-
 #footer ul.social li:hover a i {
   font-size: 30px;
   margin-top: -10px;
 }
-
 #footer ul.social li a,
 #footer ul.quick-links li a {
   color: #ffffff;
 }
-
 #footer ul.social li a:hover {
   color: #ffffff;
 }
 /* end footer */
-
 
 
 /* Top & Bottom Borders Out */
@@ -89,25 +79,19 @@ section {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-
 .topBottomBordersOut a:before {
   top: 0px;
   transform: translateY(10px);
 }
-
 .topBottomBordersOut a:after {
   bottom: 0px;
   transform: translateY(-10px);
 }
-
 .topBottomBordersOut a:hover:before, .topBottomBordersOut a:hover:after {
   opacity: 1;
   transform: translateY(0px);
 }
 /* top and bottom borders end */
-
-
-
 
 
 /* hover tables */
@@ -125,51 +109,40 @@ section {
   -moz-transition: all .3s ease;
   -webkit-transition: all .3s ease;
 }
-
 .pricing-table:hover {
   box-shadow: 0px 0px 30px rgba(0,0,0, .2);
   background: #482e76;
   -webkit-transition:  all .3s ease;
 }
-
 .pricing-table:hover>.panel>.panel-footer>.btn {
   border: solid 1px #000000;
   -webkit-transition:  all .3s ease;
 }
-
 .btn-price:hover {
   background: #fff !important;
   color: #4b7c9c !important;
   -webkit-transition:  all .3s ease;
 }
-
 .pricing-table:hover>.panel>.control-header>.panel-title-landing {
   color: #ffffff;
   -webkit-transition:  all .3s ease;
 }
-
 .pricing-table:hover>.panel>.panel-body-landing>.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
   color: #ffffff;
   -webkit-transition:  all .3s ease;
 }
-
 .panel-heading-landing { 
   padding: 20px !important;
 }
-
 .panel-title-landing {
   color: #000000;
   font-size: 25px;
   font-weight: bold;
 }
-
 .panel-footer-landing {
   padding: 20px;
 }
 /* end hover tables */
-
-
-
 
 
 /* social cards */
@@ -177,10 +150,9 @@ section {
   background-color: #0e83aa ;    
   color: #ffffff;
   border: none !important;
-  transition: 1s 0.5s ease;
+  transition: 1s 0s ease;
 }
 #social-cards .bluebg:hover .btn {
-  border-radius: 0 !important;
   background-color: #ffffff !important;
   color: #0e83aa;
 }
@@ -188,29 +160,26 @@ section {
   background-color: #482e76;    
   color: #ffffff;
   border: none !important;   
-  transition: 1s 0.5s linear;
+  transition: 1s 0s linear;
 }
 #social-cards .purplebg:hover .btn {
-  border-radius: 0 !important;
   background-color: #ffffff !important;
   color: #482e76;   
 }
 /* end social cards */
 
 
-
-
-/* update tabs*/
+/* tabs*/
 #tabs{
   background: #482e76;
   color: #ffffff;
   padding: 10px 10px;
 }
 #tabs h6.section-title{
-  color: #eee;
+  color: #ffffff;
 }
 #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-  color: #f3f3f3;
+  color: #ffffff;
   background-color: transparent;
   border-color: transparent transparent #f3f3f3;
   border-bottom: 4px solid !important;
@@ -221,14 +190,17 @@ section {
   border: 1px solid transparent;
   border-top-left-radius: .25rem;
   border-top-right-radius: .25rem;
-  color: #eee;
+  color: #ffffff;
   font-size: 20px;
 }
-/* end update tabs */
-
-
-
-
+#tabs ul.dropdown-menu {
+  background: #482e76;
+  color: #ffffff;
+}
+#tabs ul.dropdown-menu li a {
+  color: #ffffff;
+}
+/* end tabs */
 
 
 /* contact form */
@@ -236,27 +208,18 @@ section {
   background: #0e83aa;
   color: #ffffff;
 }
-
 .contactHeader {
   color: #ffffff;
 }
-
 .btnContactColor {
   background: #482e76;
   color: #ffffff;
 }
-
 .btnContactColor:hover {
   background: #02214f;
   color: #ffffff;
 }
 /* end contact form */
-
-
-
-
-
-
 
 
 /* image zoom effect */
@@ -266,12 +229,10 @@ section {
   position: relative;
   overflow: hidden;
 }
-
 .zoom img {
   -webkit-transition: 0.6s ease;
   transition: 0.6s ease;
 }
-
 .zoom img:hover {
   -webkit-transform: scale(1.2);
   transform: scale(1.2);

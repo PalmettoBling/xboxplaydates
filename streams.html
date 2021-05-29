@@ -8,10 +8,12 @@
     <link rel="icon" type="image/png" href="images/icon.png" />
 
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <title>XboxPlaydatesUS</title>
@@ -39,8 +41,62 @@
     <!-- end navbar -->
 
 
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col">
+                <section id="tabs">
+                    <ul class="nav nav-tabs">
+                        <!-- dropdown menu -->
+                        <li class="dropdown">
+                        <a class="dropdown-toggle nav-item nav-link" href="#" data-toggle="dropdown">Streams<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#all" data-toggle="tab">All</a></li>
+                            <li><a href="#us" data-toggle="tab">XboxPlaydatesUS</a></li>
+                            <li><a href="#gb" data-toggle="tab">XboxPlaydatesGB</a></li>
+                            <li><a href="#de" data-toggle="tab">XboxPlaydatesDE</a></li>
+                            <li><a href="#ca" data-toggle="tab">XboxPlaydatesCA</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                    <!-- tab content-->
+                    <div class="tab-content mt-4">
+                        <!-- All -->
+                        <div id="all" class="tab-pane fade show active">
+                            <h3>All</h3>
+                            <p></p>
+                        </div>
+                        <!-- end All -->
+                        <!-- XboxPlaydatesUS -->
+                        <div id="us" class="tab-pane fade">
+                            <h3>XboxPlaydatesUS</h3>
+                            <p></p>
+                        </div>
+                        <!-- end XboxPlaydatesUS -->
+                        <!-- XboxPlaydatesGB -->
+                        <div id="gb" class="tab-pane fade">
+                            <h3>XboxPlaydatesGB</h3>
+                            <p></p>
+                        </div>
+                        <!-- end XboxPlaydatesGB -->
+                        <!-- XboxPlaydatesDE -->
+                        <div id="de" class="tab-pane fade">
+                            <h3>XboxPlaydatesDE</h3>
+                            <p></p>
+                        </div>
+                        <!-- end XboxPlaydatesDE -->
+                        <!-- XboxPlaydatesCA -->
+                        <div id="ca" class="tab-pane fade">
+                            <h3>XboxPlaydatesCA</h3>
+                            <p></p>
+                        </div>
+                        <!-- end XboxPlaydatesCA -->
+                    </div>
+                    <!-- end tab content -->
+                </section>
+            </div>
+        </div>
+    </div>
    
-
 
     <!-- footer -->
     <section id="footer">
@@ -48,7 +104,7 @@
 			<div class="row">
 				<div class="col mt-2 mt-sm-5 text-center">
 					<ul class="list-unstyled list-inline social">
-						<li class="list-inline-item"><a href="https://xboxplaydates.us/twitch"><i class="fa fa-twitch"></i></a></li>
+						<li class="list-inline-item"><a href="streams.html"><i class="fa fa-twitch"></i></a></li>
 						<li class="list-inline-item"><a href="https://twitter.com/XboxPlaydatesUS"><i class="fa fa-twitter"></i></a></li>
 						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCsmPOuYeUCmNDQwaHFbyb-A"><i class="fa fa-youtube"></i></a></li>
 						<li class="list-inline-item"><a href="https://www.facebook.com/XboxPlaydatesUS/"><i class="fa fa-facebook"></i></a></li>
@@ -61,10 +117,11 @@
     <!-- end footer-->
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-
+    <!-- endbuild -->
 </body>
 </html>

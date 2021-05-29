@@ -8,10 +8,12 @@
     <link rel="icon" type="image/png" href="images/icon.png" />
 
     <!-- Bootstrap CSS -->
+    <!-- build:css css/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <!-- endbuild -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <title>XboxPlaydatesUS</title>
@@ -41,9 +43,12 @@
 
     <div class="container">
         <div class="row mt-4">
+            <!-- twitter feed -->
             <div class="col-md-4">
                 <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600&amp;wkst=1&amp;bgcolor=%23A79B8E&amp;ctz=America%2FLos_Angeles&amp;src=cXZrdmtqMzdrazk3dGtxMXM4Y3Y0bGgxNW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23009688&amp;mode=AGENDA&amp;showTitle=1&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=1&amp;title=Xbox%20Playdates%20US" style="border:solid 1px #777" frameborder="0" height="700" width="100%" scrolling="no"></iframe>
             </div>
+            <!-- end twitter feed-->
+            <!-- news posts updates -->
              <div class="col">
                 <section id="tabs">
                     <nav>
@@ -54,6 +59,7 @@
                         </div>
                     </nav>
                     <div class="tab-content py-3 px-3 px-sm-0" id="nav-tabContent">
+                        <!-- news -->
                         <div class="tab-pane fade show active" id="nav-news" role="tabpanel" aria-labelledby="nav-news-tab">
                             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim 
                             occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor 
@@ -74,6 +80,8 @@
                             ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. 
                             Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
                         </div>
+                        <!-- end news -->
+                        <!-- posts -->
                         <div class="tab-pane fade" id="nav-posts" role="tabpanel" aria-labelledby="nav-posts-tab">
                             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim 
                             occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor 
@@ -82,6 +90,8 @@
                             ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. 
                             Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
                         </div>
+                        <!-- end posts -->
+                        <!-- updates -->
                         <div class="tab-pane fade" id="nav-updates" role="tabpanel" aria-labelledby="nav-updates-tab">
                             Et et consectetur ipsum labore excepteur est proident excepteur ad velit occaecat qui minim 
                             occaecat veniam. Fugiat veniam incididunt anim aliqua enim pariatur veniam sunt est aute sit dolor 
@@ -90,9 +100,11 @@
                             ipsum in qui sit. Exercitation mollit sit culpa nisi culpa non adipisicing reprehenderit do dolore. 
                             Duis reprehenderit occaecat anim ullamco ad duis occaecat ex.
                         </div>
+                        <!-- end updates -->
                     </div>
                 </section>
             </div>
+            <!-- end news posts updates -->
         </div>
     </div>
            
@@ -103,7 +115,7 @@
 			<div class="row">
 				<div class="col mt-2 mt-sm-5 text-center">
 					<ul class="list-unstyled list-inline social">
-						<li class="list-inline-item"><a href="https://xboxplaydates.us/twitch"><i class="fa fa-twitch"></i></a></li>
+						<li class="list-inline-item"><a href="streams.html"><i class="fa fa-twitch"></i></a></li>
 						<li class="list-inline-item"><a href="https://twitter.com/XboxPlaydatesUS"><i class="fa fa-twitter"></i></a></li>
 						<li class="list-inline-item"><a href="https://www.youtube.com/channel/UCsmPOuYeUCmNDQwaHFbyb-A"><i class="fa fa-youtube"></i></a></li>
 						<li class="list-inline-item"><a href="https://www.facebook.com/XboxPlaydatesUS/"><i class="fa fa-facebook"></i></a></li>
@@ -116,10 +128,11 @@
     <!-- end footer-->
 
     <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins. -->
+    <!-- build:js js/main.js -->
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
-
+    <!-- endbuild -->
 </body>
 </html>

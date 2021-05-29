@@ -1,7 +1,5 @@
-$('.navTrigger').click(function () {
-    $(this).toggleClass('active');
-    console.log("Clicked menu");
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
-
+$(function () {
+    $('.dropdown-menu a').click(function (e) {
+        $('.active').removeClass('active');
+    });
 });

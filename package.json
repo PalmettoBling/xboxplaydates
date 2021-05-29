@@ -4,14 +4,23 @@
   "description": "xboxplaydates",
   "main": "index.html",
   "scripts": {
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin",
+    "clean": "rimraf dist",
+    "copyfonts": "copyfiles -f node_modules/font-awesome/fonts/* dist/fonts",
+    "imagemin": "imagemin img/* -o dist/img",
     "lite": "lite-server",
     "start": "npm run lite",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "usemin": "usemin streams.html -d dist --htmlmin -o dist/streams.html && usemin social.html -d dist --htmlmin -o dist/social.html && usemin latestinfo.html -d dist --htmlmin -o dist/latestinfo.html && usemin contact.html -d dist --htmlmin -o dist/contact.html && usemin index.html -d dist --htmlmin -o dist/index.html"
   },
   "author": "Christine Calas",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "copyfiles": "^2.2.0",
+    "imagemin-cli": "^5.1.0",
+    "lite-server": "^2.6.1",
+    "rimraf": "^3.0.2",
+    "usemin-cli": "^0.6.0"
   },
   "dependencies": {
     "animate.css": "^4.1.1",
